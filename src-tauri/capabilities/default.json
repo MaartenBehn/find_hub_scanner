@@ -1,0 +1,27 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "blec:default",
+    "blec:allow-get-adapter-state",
+    "blec:allow-scanning-state",
+    "blec:allow-scan",
+    "blec:allow-stop-scan",
+    "blec:allow-connect",
+    "blec:allow-connection-state",
+    "blec:allow-disconnect",
+    "blec:allow-list-services",
+    "blec:allow-recv",
+    "blec:allow-recv-string",
+    "blec:allow-send",
+    "blec:allow-send-string",
+    "blec:allow-subscribe",
+    "blec:allow-subscribe-string",
+    "blec:allow-unsubscribe",
+    "blec:allow-check-permissions"
+  ]
+}

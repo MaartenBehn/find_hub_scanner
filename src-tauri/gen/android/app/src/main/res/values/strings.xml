@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">tauri-ble-example</string>
+    <string name="main_activity_title">tauri-ble-example</string>
+</resources>
