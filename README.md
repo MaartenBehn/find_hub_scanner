@@ -6,6 +6,8 @@
 
 这是一个基于 **Tauri + Vue 3 + TypeScript** 的跨平台蓝牙低能耗(BLE)应用示例。支持在 Windows、macOS、Linux 和 Android 等平台上进行蓝牙设备通信。
 
+![Image](image.jpg)
+
 ## 📋 前置要求
 
 | 组件 | 版本 | 说明 |
@@ -55,14 +57,24 @@ cargo --version
 rustup update
 ```
 
-### 4️⃣ 安装项目依赖
+### 4️⃣ 安装 Tauri CLI
+
+```powershell
+# 全局安装 Tauri CLI
+cargo install tauri-cli
+
+# 验证安装
+cargo tauri --version
+```
+
+### 5️⃣ 安装项目依赖
 
 ```powershell
 # 安装 npm 依赖
 npm install
 ```
 
-### 5️⃣ 开发调试
+### 6️⃣ 开发调试
 
 ```powershell
 # 开发模式运行 Tauri 应用

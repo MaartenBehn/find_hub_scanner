@@ -6,6 +6,8 @@
 
 This is a cross-platform Bluetooth Low Energy (BLE) application example based on **Tauri + Vue 3 + TypeScript**. It supports Bluetooth device communication on Windows, macOS, Linux, and Android platforms.
 
+![Image](image.jpg)
+
 ## 📋 Prerequisites
 
 | Component | Version | Description |
@@ -55,14 +57,24 @@ cargo --version
 rustup update
 ```
 
-### 4️⃣ Install Project Dependencies
+### 4️⃣ Install Tauri CLI
+
+```powershell
+# Install Tauri CLI globally
+cargo install tauri-cli
+
+# Verify installation
+cargo tauri --version
+```
+
+### 5️⃣ Install Project Dependencies
 
 ```powershell
 # Install npm dependencies
 npm install
 ```
 
-### 5️⃣ Development & Debugging
+### 6️⃣ Development & Debugging
 
 ```powershell
 # Run Tauri application in development mode
