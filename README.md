@@ -172,7 +172,7 @@ keytool -genkey -v -keystore tauri-ble-example-keystore.jks -keyalg RSA -keysize
 # 签名配置（替换为你的实际值）
 storePassword=your_keystore_password
 keyPassword=your_key_password
-keyAlias=upload
+keyAlias=upload # 注意，这里必须是upload，不能修改
 storeFile=C:\\path\\to\\your\\tauri-ble-example-keystore.jks
 ```
 
