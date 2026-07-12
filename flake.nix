@@ -1,5 +1,5 @@
 {
-  description = "Tauri BLE Example – dev environment";
+  description = "Find Hub Scanner – dev environment";
 
   inputs = {
     nixpkgs.url     = "github:NixOS/nixpkgs/release-25.11";
@@ -44,7 +44,7 @@
 
       in {
         devShells.default = pkgs.mkShell {
-          name = "tauri-ble-example";
+          name = "find_hub_scanner";
 
           buildInputs = with pkgs; [
             rustToolchain
