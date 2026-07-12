@@ -154,7 +154,8 @@ pub async fn scanner_loop(app: AppHandle) {
             }
         };
 
-        let _ = app.emit("findhub://state", &state_snapshot);
+        app.emit("findhub://state", &state_snapshot)
+            .expect("failed to emit state event");
         log::info!(
             "FindHub: emitted state key={} wallet={}",
             state_snapshot.key.present,
